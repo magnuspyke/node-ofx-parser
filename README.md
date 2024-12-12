@@ -69,7 +69,7 @@ In your data returned, you will have the following properties:
 
 ## caveats ##
 
-This library is just a fork of the [node-ofx](https://github.com/chilts/node-ofx) made by [Andrew Chilton](https://github.com/chilts), the logic is the same, only difference is the xml-parser dependency. His version has a dependency that was breaking my CI, so I created another version with the [fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser)
+This library is just a fork of [node-ofx](https://github.com/LucasBremm/node-ofx) by [Lucas Bremm](https://github.com/LucasBremm) which is a fork of the [node-ofx](https://github.com/chilts/node-ofx) made by [Andrew Chilton](https://github.com/chilts), the logic is the same, only difference is the xml-parser dependency. Andrew's and Lucas' versions have vunerable dependencies, so I created another version with the latest [fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser) which had no known vulnerabilities at the time.
 
 The OFX file format is yucky, horrible and just silly. This module helps parse
 the ones I know about. And it doesn't do it in a nice way either. It may or may
@@ -85,7 +85,7 @@ This module takes the OFX format and does the following:
 
 ## Credits ##
 
-Thanks to [Andrew Chilton](https://github.com/chilts) for writing the lib [node-ofx](https://github.com/chilts/node-ofx), which this one is a fork with just a change of xml-parser library
+Thanks to [Andrew Chilton](https://github.com/chilts) for writing the lib [node-ofx](https://github.com/chilts/node-ofx), which this is the original code and thanks to [Lucas Bremm](https://github.com/LucasBremm) for providing an updated version with just a change of xml-parser library.
 
 ## License ##
 
