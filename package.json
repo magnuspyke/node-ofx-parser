@@ -31,7 +31,7 @@
     }
   ],
   "dependencies": {
-    "fast-xml-parser": "^5.0.0"
+    "fast-xml-parser": "4.5.3"
   },
   "devDependencies": {
     "tape": "^5.0.0"

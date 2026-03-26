@@ -1,4 +1,4 @@
-const { XMLParser } = require('fast-xml-parser')
+import { XMLParser } from 'fast-xml-parser';
 
 function sgml2Xml(sgml) {
   return sgml
@@ -127,7 +127,7 @@ const objToOfx = (obj) => {
   return out;
 }
 
-module.exports = {
+export default {
   parse,
   serialize
 }
